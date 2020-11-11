@@ -7,7 +7,6 @@ public class CalculatorImpl implements Calculator {
 	}
 
 	public int subtraction(int a, int b) {
-		
 		return a - b;
 	}
 
@@ -22,6 +21,5 @@ public class CalculatorImpl implements Calculator {
 	public boolean equalIntegers(int a, int b) {
 		return a == b;
 	}
-	
 
 }

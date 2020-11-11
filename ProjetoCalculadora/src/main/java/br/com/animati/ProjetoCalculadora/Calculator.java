@@ -2,14 +2,16 @@ package br.com.animati.ProjetoCalculadora;
 
 public interface Calculator {
 	
-	int sum(int a, int b);
+		int sum(int a, int b);
 
-	int subtraction(int a, int b);
+		int subtraction(int a, int b);
 
-	int multiplication(int a, int b);
+		int multiplication(int a, int b);
 
-	int divison(int a, int b) throws Exception;
+		int divison(int a, int b) throws Exception;
 
-	boolean equalIntegers(int a, int b);
+		boolean equalIntegers(int a, int b);
+
 	
+
 }
